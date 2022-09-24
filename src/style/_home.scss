@@ -1,0 +1,90 @@
+// Home styling
+.home {
+    margin: 1vh auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 75vh;
+    background: url("../../public/img/homeback.png") repeat no-repeat center center/cover;
+    opacity: 0.7; 
+}
+
+.home .name {
+    text-align: center;
+    padding-top: 8%;
+    color: aliceblue;
+    width: 50%;
+    animation: move1;
+    animation-duration: 2.5s;
+    font-size: 3rem;
+  }
+  
+  .home .position {
+    text-align: center;
+    padding-top: 2%;
+    color: aliceblue;
+    width: 60%;
+    animation: move2;
+    animation-duration: 2.5s;
+    font-size: 2rem
+  }
+
+  @media screen and (min-width: 1000px) {
+    @keyframes move1 {
+      0% {
+        
+        width: 20%;
+      }
+      100% {
+        
+        width: 50%;
+      }
+    }
+    @keyframes move2 {
+      0% {
+        
+        width: 30%;
+      }
+      100% {
+        
+        width: 60%;
+      }
+    }
+  }
+
+  .home span {
+    text-shadow: 3px 3px rgb(105, 105, 105);
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .home .name {
+      font-size: 2rem;
+      padding-top: 10%;
+    }
+  
+    .home .position {
+      font-size: 1.7rem;
+      padding-top: 5%;
+    }
+  
+    @keyframes move1 {
+      0% {
+        width: 40%;
+      }
+      100% {
+        width: 55%;
+      }
+    }
+    @keyframes move2 {
+      0% {
+        width: 55%;
+      }
+      100% {
+        width: 65%;
+      }
+    }
+  }
+

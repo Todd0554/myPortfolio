@@ -1,0 +1,41 @@
+#competence{
+    background: transparentize($color: #dedede, $amount: 0.2);
+    width: 100%;
+    font-family: 'Mate SC', serif;
+}
+
+#competence{
+    @extend.inher5;
+    padding: 3vh 0 12vh 0;
+    text-align: center;
+}
+
+#competence h1{
+    font-size: 2rem;
+    color: rgb(55, 55, 55);
+}
+
+#competence p{
+    font-size: 1.6rem;
+    padding: 30px 0;
+    line-height: 2.5rem;
+    color: rgb(87, 87, 87);
+}
+
+// personal CV link as a button in PDF which can be downloaded
+
+#competence a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 1.4rem;
+    border: 1px solid map-get($colors, navbar);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+// hover of the PDF button
+
+#competence a:hover{
+    background-color: map-get($colors, navbar);
+    color: aliceblue;
+}

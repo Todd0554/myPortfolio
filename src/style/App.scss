@@ -1,0 +1,45 @@
+$colors: (
+  backing: #dddddd,
+  navbar:  rgb(166, 166, 166),
+);
+
+.inher2{
+    margin: auto;
+}
+
+.inher3{
+    font-family: 'Mate SC', serif;
+    font-size: 1.8rem;
+}
+
+.inher4{
+    text-align: center;
+}
+.inher5{
+    margin: auto;
+    width: 100%;
+}
+
+@import 'upper';
+@import 'nav';
+@import 'social-media';
+@import 'home';
+@import 'about-me';
+@import 'resume';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+
+    background: url('../../public/img/pexels-wouter-de-jong-571169.jpg') center center/cover fixed;
+    height: 100%;
+}
+
+
+
+
+

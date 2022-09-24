@@ -1,0 +1,179 @@
+#personal {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+#personal #myDiv {
+    background: url('../../public/img/aboutme.jpg') repeat no-repeat center center/cover;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    border: 1px solid #fff;
+
+    border-radius: 10px;
+    margin: 1vh auto;
+    width:80%;
+}
+
+// #personal .container{
+//     margin: 0 auto;
+//     background: transparentize($color: #dedede, $amount: 0.5);
+// }
+
+// // img of me (here is Homer Simpson)
+
+#personal .myPhoto{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#personal .myPhoto img {
+    margin: 1vh auto;
+    width: 70%;
+}
+
+// // personal introduction text
+
+#personal .text{
+    padding-bottom: 1vh;
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+    box-shadow: 5px 5px 20px black;
+    color: rgb(82, 82, 82);
+}
+
+#personal .text p {
+    color: rgb(85, 85, 85);
+    padding: 0 10px;
+}
+
+#personal .text h1{
+    font-family: 'Mate SC', serif;
+    font-size: 2.4rem;
+    padding-top: 8px;
+}
+
+#personal .text p{
+    font-size: 1.2rem;
+    font-family: 'Mate SC', serif;
+    line-height: 1.7rem;
+}
+
+// three card section of my hobbies
+
+#threecard {
+    @extend.inher5;
+    text-align: center;
+    
+}
+
+#threecard h1{
+    @extend.inher3;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
+}
+
+#threecard h2{
+    color: rgb(111, 111, 111);
+    padding-top: 10px;
+}
+
+#threecard p {
+    color: rgb(111, 111, 111);
+}
+
+#threecard .card{
+    display: inline-block;
+    margin: auto;
+    margin: 15px;
+    width: 30%;
+    background: transparentize($color: #dedede, $amount: 0.2);
+}
+
+#threecard h1 {
+    color: rgb(84, 84, 84);
+}
+
+#threecard img{
+    @extend.inher5; 
+}
+
+// responsive settings of three hobbies cards
+
+@media screen and (max-width:1000px) {
+    #threecard .card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #threecard.card{
+        width: 80%;
+    }
+}
+
+
+
+#blog h1{
+    @extend.inher3;
+    text-align: center;
+
+}
+
+#blog p{
+    font-family: 'Mate SC', serif;
+    font-size: 1.2rem;
+    padding-top: 8px;
+    color: rgb(113, 113, 113);
+}
+
+#blog .box1{
+    @extend.inher5;
+    
+    text-align: center; 
+    padding: 15px;
+    
+}
+
+.bigbox {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#blog .box{
+    @extend.inher4;
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#blog .box1 .img{
+    @extend.inher5;
+    box-shadow: 5px 5px 10px black;
+    width: 50%;
+}
+
+#blog .box .img{
+    @extend.inher5;
+    box-shadow: 5px 5px 10px black;
+    width: 100%;
+}
+
+// responsive settings of blog section
+
+@media screen and (max-width:800px){
+    #blog .box{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    #blog .box{
+        width: 80%;
+    }
+
+}

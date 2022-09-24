@@ -1,0 +1,28 @@
+// SocialMedia styling
+.social-media {
+  background: transparentize($color: #aaaaaa, $amount: 0.2);
+
+    width: 100%; 
+    margin-top: 0vh;
+    position: static;
+  }
+  
+.social-media {
+    text-align: center;
+  }
+  
+.social-media a i {
+    font-size: 2rem;
+    color: #404040;
+    padding: 10px 30px 10px 30px;
+  }
+  
+.social-media a i:hover {
+    transition: 1.2s;
+    transform: rotate(360deg);
+  }
+
+footer {
+    text-align: center;
+    color: #fff;
+}

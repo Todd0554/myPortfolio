@@ -1,0 +1,45 @@
+// navbar styling
+nav {
+    position: relative;
+    background: transparentize($color: #aaaaaa, $amount: 0.2);
+    font-family: 'Mate SC', serif;
+    width: 80%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    height: 35px;
+ 
+}
+
+nav u.nav-btn {
+    display: inline-block;
+    
+}
+
+nav ul {
+    height: auto;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+  }
+
+nav ul li a:nth-child(1){
+    width: auto;
+}
+nav ul li a:nth-child(2){
+    width: auto;
+}
+nav ul li a:nth-child(3){
+    width: auto;
+}
+nav ul li a:nth-child(4){
+    width: auto;
+}
