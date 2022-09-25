@@ -19,7 +19,9 @@
 //     margin: 0 auto;
 //     background: transparentize($color: #dedede, $amount: 0.5);
 // }
-
+#personal h1{
+    color: rgb(85, 85, 85);
+}
 // // img of me (here is Homer Simpson)
 
 #personal .myPhoto{
@@ -41,7 +43,7 @@
     margin: 0 auto;
     width: 65%;
     box-shadow: 5px 5px 20px black;
-    color: rgb(82, 82, 82);
+    color: rgb(85, 85, 85);
 }
 
 #personal .text p {
