@@ -5,8 +5,7 @@ export default function ResumePDF() {
 
   return (
     <div className="resume">
-        <object className="pdf" type="application/pdf" data={pdf}/>
-        
+        <object className="pdf" aria-labelledby="label1" type="application/pdf" data={pdf}/>
     </div>
   )
 }
