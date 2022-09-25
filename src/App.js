@@ -6,6 +6,8 @@ import Upper from './components/Upper'
 import SocialMedia from './components/SocialMedia'
 import AboutMe from './routes/AboutMe'
 import Resume from './routes/Resume'
+import ResumePDF from './routes/ResumePDF'
+import Contact from './routes/Contact'
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/AboutMe" element={<AboutMe />} />
         <Route path="/Resume" element={<Resume />} />
+        <Route path="/Resume/resumePDF" element={<ResumePDF />} />
+        <Route path="/contact" element={<Contact />} />
+        
       </Routes>
       <SocialMedia />
       <footer>

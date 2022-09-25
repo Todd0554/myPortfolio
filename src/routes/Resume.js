@@ -1,12 +1,21 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
+
 
 export default function Resume() {
   return (
     <div id="competence">
-    <h1>My Studying Journey</h1>
-    <p>July 2016 to July 2018 <br/>
+    <h1>EDUCATION AND TRAINING</h1>
+    <p>
+        February 2022 to November 2022 <br/>
+        Coder Academy <br/>
+        <em>Diploma of Web Development</em>
+        <br/>
+        <br/>
+        July 2016 to July 2018 <br/>
         Australian Maritime College, University of Tasmania <br/>
-        <em>Master of Engineering (Maritime Design)</em><br/>
+        <em>Master of Engineering (Maritime Design)</em>
+        <br/>
         <br/>
         September 2011 to July 2015 <br/>
         Jiangxi University of Science and Technology <br/>
@@ -14,27 +23,40 @@ export default function Resume() {
     </p>
     <hr/>
     <br/>
-    <h1>Competency</h1>
+    <h1>SKILLS</h1>
     <p>
-        Be proficient in Microsoft Suite of packages, MATLAB and Maxsurf
+        Be able to use Github to develop with other developers
         <br/>
-        Be Experienced with industry CAD system ( AutoCAD, SolidWorks & UG ) and
+        Familiar with basic knowledge of HTML, CSS and Javascript
         <br/>
-        simulation/modeling software ( ANSYS Fluent, ANSYS CFX )
+        Be able to use React, node.js, MangoDB and Express to develop web app
         <br/>
-        Basic HTML and CSS knowledge for web development
+        Be able to use ROR and Postgresql to develop web apps
+        <br/>
+        Be able to use different deploying tools including Heroku, Netlify and Railway
+        <br/>
+        Basic Bootstrap 5 skills
+        <br/>
+        Good teamwork and collaboration
+        <br/>
+        Self-Motivated and Dependent learning
+
+
+
+
     </p>
     <hr/>
     <br/>
-    <h1>Other Certificates</h1>
+    <h1>CODING PROJECTS</h1>
     <p>
-        Member of Engineers Australia
-        <br/>
-        National Computer Rank Examination Certificate (Grade 2) ( CHINA) <br/>
-        2D CAD Engineer certificate, The Excellent League Member ( CHINA )
+
+      <a className="ltg" href="https://github.com/Todd0554/BandFleaMarket-with-presentation" rel="noreferrer" target="_blank">BandFleaMarket – A music instrument two side marketplace based on ROR</a><br/>
+      <a className="ltg" href="https://github.com/Todd0554/myPortfolio" rel="noreferrer" target="_blank">My portfolio – A simple introduction website of myself</a><br/>
+      <a className="ltg" href="https://github.com/Todd0554/CodeMusic-terminal-app" rel="noreferrer" target="_blank">CodeMusic – A terminal app based on ruby</a><br/>
+      <a className="ltg" href="https://github.com/Todd0554/Dingo-Drum" rel="noreferrer" target="_blank">Dingo-Drum – A Hackathon team work app</a><br/>
     </p>
     <br/>
-    <a href="/pdf.html">My Personal CV in PDF</a>
+    <Link to="/Resume/resumePDF" className="pdf">My Personal CV in PDF</Link>
 </div>
   )
 }

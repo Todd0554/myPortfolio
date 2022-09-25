@@ -25,7 +25,7 @@ export default function AboutMe() {
                 <div class="card">
                     <img src="./img/music.jpg" alt="#" />
                     <h2>Music</h2>
-                    <p>Music is one of my relaxing styles. I like playing guitar, bass, blues-harmonica and many other music instruments. I record the songs with my friends online.</p>
+                    <p>Music is one of my relaxing styles. I like playing guitar, bass, blues-harmonica and many other music instruments. I also record the songs with my friends online in my spare time.</p>
                 </div>
                 <div class="card">
                     <img src="./img/food.jpg" alt="#" />

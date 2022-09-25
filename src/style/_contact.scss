@@ -1,0 +1,55 @@
+#contact-info {
+    background: url('../../public/img/sea.jpg') center center/cover fixed;
+    width: 80%;
+    height: 75vh;
+    margin: 0 auto;
+    font-family: "Mate SC", serif;
+    
+  }
+  
+  #contact-info .container {
+    padding: 5vh;
+  }
+
+  #contact-info p{
+    color: rgb(96, 96, 96);
+  }
+
+  #contact-info h1 {
+    font-size: 2rem;
+    padding: 12px 0 12px 0;
+    color: rgb(102, 102, 102);
+  }
+  
+  #contact-info form {
+    font-size: 1.2rem;
+  }
+  
+  #contact-info .container .table input {
+    width: 100%;
+    height: 1.8rem;
+    background: rgba(211, 211, 211, 0.3);
+    border-radius: 5px;
+  }
+  
+  #contact-info .container .table textarea {
+    width: 100%;
+    height: 200px;
+    background: rgba(211, 211, 211, 0.3);
+    border-radius: 5px;
+  }
+  
+  #contact-info .container .table .send {
+    width: 80px;
+    font-family: "Mate SC", serif;
+    text-decoration: none;
+    background: rgba(203, 203, 203, 0.5);
+    float: left;
+    
+  }
+  
+  #contact-info .container .table .send:hover {
+    background-color: aliceblue;
+    color: rgb(50, 50, 50);
+  }
+

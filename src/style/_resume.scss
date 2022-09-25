@@ -1,7 +1,8 @@
 #competence{
-    background: transparentize($color: #dedede, $amount: 0.2);
-    width: 100%;
+    background: transparentize($color: #dedede, $amount: 0.4);
+    width: 80%;
     font-family: 'Mate SC', serif;
+    margin: 1vh auto;
 }
 
 #competence{
@@ -22,9 +23,15 @@
     color: rgb(87, 87, 87);
 }
 
+#competence .ltg:hover {
+    text-decoration: none;
+
+}
+
+
 // personal CV link as a button in PDF which can be downloaded
 
-#competence a{
+#competence .pdf{
     text-decoration: none;
     color: rgb(88, 88, 88);
     font-size: 1.4rem;
@@ -35,7 +42,7 @@
 
 // hover of the PDF button
 
-#competence a:hover{
+#competence .pdf:hover{
     background-color: map-get($colors, navbar);
     color: aliceblue;
 }
