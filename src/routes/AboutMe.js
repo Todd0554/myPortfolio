@@ -35,7 +35,7 @@ export default function AboutMe() {
                 <div class="card">
                     <img src="./img/travel.jpg" alt="#" />
                     <h2>Traveling</h2>
-                    <p>Hiking, finishing, camping and so on. Traveling always can bring me a great mood and improves my working efficiency. BTW, my next destination is New Zealand.</p>
+                    <p>Hiking, finishing, camping and so on. Traveling always can bring me a fantastic experience which can improves my working efficiency. BTW, my next destination is New Zealand.</p>
                 </div>
             </div>
 
