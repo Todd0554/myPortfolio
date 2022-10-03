@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the link to the website: https://warm-rugelach-6bcc1f.netlify.app/
 
 ## Available Scripts
 
