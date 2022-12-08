@@ -49,7 +49,7 @@ export default function Resume() {
     <br/>
     <h1>CODING PROJECTS</h1>
     <p>
-
+      <a className="ltg" href="https://github.com/Final-Project-CoderAcademy/Final-project" rel="noreferrer" target="_blank">Teamwork: MyWay traveling blog app-based on MERN stack</a><br/>
       <a className="ltg" href="https://github.com/Todd0554/BandFleaMarket-with-presentation" rel="noreferrer" target="_blank">BandFleaMarket – A music instrument two side marketplace based on ROR</a><br/>
       <a className="ltg" href="https://github.com/Todd0554/myPortfolio" rel="noreferrer" target="_blank">My portfolio – A simple introduction website of myself</a><br/>
       <a className="ltg" href="https://github.com/Todd0554/CodeMusic-terminal-app" rel="noreferrer" target="_blank">CodeMusic – A terminal app based on ruby</a><br/>
